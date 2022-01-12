@@ -1,0 +1,12 @@
+﻿
+@using WebApplication2_HiSchool.Models;
+
+<h1>All the students :</h1>
+@foreach (Student item in Model)
+{
+    <h5>name : @item.name</h5>
+    <h5>Lname : @item.lName</h5>
+    <h5>age : @item.age</h5>
+    <h5>class : @item.classShcool</h5>
+}
+
